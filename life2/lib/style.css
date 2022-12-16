@@ -6,6 +6,18 @@
   background-image: url(grid.png);
 }
 
+.transparent-text {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  background: #161616;
+  display: table;
+  margin: 20px auto;
+  color: white;
+  border-radius: 500px;
+  mix-blend-mode: multiply;
+  padding: 5px 10px;
+}
 
 body{
   background: #0817e2;
@@ -37,17 +49,17 @@ html{
 	padding: 0;
 	margin: 0;
 	background-color: rgb(20, 20, 20);
-	border: 1px solid rgb(238, 197, 14);
+	border: 3px solid rgb(238, 197, 14);
 	box-shadow: 0 1px 0 rgba(194, 235, 12, 0.9) inset, 0 1px 3px rgba(0,0,0, .1);
-	border-radius: 3px;
+	border-radius: 30px;
   margin-left:15px;
 }
 
 .Navigation a{							
 	padding:15px;
 	text-decoration: none; 
-	color:rgb(15, 196, 228);
-	text-shadow: 0 1px rgb(245, 244, 244);
+	color:rgb(239, 241, 241);
+	text-shadow: 0 px rgb(245, 244, 244);
 	display: block;
 }
 .Navigation li ul{
@@ -67,9 +79,6 @@ html{
 } 
 
 .Navigation li:hover, a:hover {
-	 background: #e8e8e8;
+	 background: #3615ca;
+   border-radius: 30px
 } 
-
-
-
-
