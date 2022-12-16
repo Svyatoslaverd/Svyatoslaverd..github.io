@@ -1,0 +1,75 @@
+#c1{
+  height: 300px;
+  width: 300px;
+  border: 3px solid rgb(13, 235, 168);
+  margin: 40px;
+  background-image: url(grid.png);
+}
+
+
+body{
+  background: #0817e2;
+  background-image: -webkit-radial-gradient(cover, rgb(34, 12, 226),#16d6e4	);
+  background-image: -moz-radial-gradient(cover, #117be6, #0a19e7);
+  background-image: -o-radial-gradient(cover, #0e0ae7, #a4a8ae);
+  background-image: radial-gradient(cover, #0f7fee, #a4a8ae)
+}
+
+html{
+  min-height:100%;
+}
+
+
+.Navigation{
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+.Navigation li 	{
+	height: auto;
+	width: 150px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font:12px "Bonveno", "Century Gothic";
+	padding: 0;
+	margin: 0;
+	background-color: rgb(20, 20, 20);
+	border: 1px solid rgb(238, 197, 14);
+	box-shadow: 0 1px 0 rgba(194, 235, 12, 0.9) inset, 0 1px 3px rgba(0,0,0, .1);
+	border-radius: 3px;
+  margin-left:15px;
+}
+
+.Navigation a{							
+	padding:15px;
+	text-decoration: none; 
+	color:rgb(15, 196, 228);
+	text-shadow: 0 1px rgb(245, 244, 244);
+	display: block;
+}
+.Navigation li ul{
+	display: none;
+	height: auto;									
+	margin-left: -11px;
+	padding: 0;		
+}				
+
+.Navigation li:hover ul{
+	display: block;
+}
+
+.navbar li ul li {
+	background-color:#eee;
+  	border: 4px solid #ccc;
+} 
+
+.Navigation li:hover, a:hover {
+	 background: #e8e8e8;
+} 
+
+
+
+
